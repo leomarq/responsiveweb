@@ -1,3 +1,26 @@
 body {
     background-color: lavender;
 }
+
+caption {
+    caption-side: bottom;
+    color: rgb(66, 69, 114);
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px dotted;
+    border-color: black;
+}
+
+th {
+    background-color: honeydew;
+}
+
+tr {
+    background-color: blanchedalmond;
+}
