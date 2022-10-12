@@ -1,0 +1,24 @@
+div{
+    border: 2px;
+    border-style: dotted;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+}
+
+#caixa1 {
+    background-color: palevioletred;
+    border-radius: 25px;
+}
+
+#caixa2 {
+    background-color: palegreen;
+    border-radius: 50px;
+}
+
+#caixa3 {
+    background-color: paleturquoise;
+    border-radius: 80px;
+}
