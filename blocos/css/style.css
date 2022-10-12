@@ -22,3 +22,10 @@ div{
     background-color: paleturquoise;
     border-radius: 80px;
 }
+
+#caixaImagemFundo {
+    background-image: url("https://i1.wp.com/images.gameswfu.net/one-piece-gear-5-o-pico-de-luffy-explicado-62850be3aeb8f.jpeg");
+    width: 678px;
+    height: 324px;
+    opacity: 0.1;
+}
