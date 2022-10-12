@@ -1,10 +1,26 @@
 body {
-    background-color: bisque;
+    background-color: honeydew;
     color: darkolivegreen;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: underline wavy;
 }
 
 .titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rosybrown;
+}
+
+.botao {
+    background-color: rosybrown;
+    padding: 10px;
+    border-radius: 10px;
+    border: dotted 1px;
+    color: honeydew;
+}
+
+.huminta {
+    text-decoration: underline;
 }
