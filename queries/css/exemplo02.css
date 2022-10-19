@@ -1,0 +1,42 @@
+body {
+    background-color: honeydew;
+}
+
+.caixa {
+    border: dotted 2px lightpink;
+    padding: 20px;
+    margin: 40px
+}
+
+.area-visivel span {
+    color:royalblue;
+    display: none;
+}
+
+/* 0 a 600 pixels */
+@media screen and (max-width:600px) {
+    span.lt600{
+        display:inline-block;
+    }
+    .caixa1 {
+        background-color: cadetblue;
+    }
+    .caixa2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .caixa1 {
+        display: none;
+    }
+    span.gt900 {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 899px) {
+    span.bt600-900 {
+        display: inline-block;
+    }
+}
