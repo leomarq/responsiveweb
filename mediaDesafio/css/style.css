@@ -1,0 +1,17 @@
+@media screen and (max-width:800px) {
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media  (min-width:801px) {
+   .celular {
+    display: none;
+   } 
+   body {
+    background-color: lightcoral;
+   }
+}
