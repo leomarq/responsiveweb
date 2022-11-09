@@ -1,0 +1,22 @@
+#btnDark{
+    background-color: #333333;
+    color: white;
+}
+
+#btnLigth{
+    background-color: aliceblue;
+    color: black;
+}
+
+.escuro {
+    background-color: #333333;
+    color: white;
+}
+
+.claro{
+    background-color: aliceblue;
+    color: black;
+}
+main{
+    min-height: 100vh;
+}
