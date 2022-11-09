@@ -11,9 +11,11 @@ btnSortear.addEventListener('click',sortear);
 function sortear () {
     imgDado.classList.add('animar');
     sorteado.classList.add('aparecer');
+    setTimeout(function () {
     numeroSorteado = getRandomInt(1,6);
     imgDado.setAttribute('src','img/' + numeroSorteado + '.png');
     imgDado.classList.remove('animar');
+    },1750);
 }
 
 function getRandomInt (min, max) {
