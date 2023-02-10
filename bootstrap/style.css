@@ -1,0 +1,33 @@
+.btn-leo {
+  color: #212529;
+  background-color:lavender;
+  border-color: lavender;
+}
+
+.btn-leo:hover {
+  color: #212529;
+  background-color: lavender;
+  border-color: lavender;
+}
+
+.btn-leo:focus, .btn-leo.focus {
+  box-shadow: 0 0 0 0.2rem lavender;
+}
+
+.btn-leo.disabled, .btn-leo:disabled {
+  color: #212529;
+  background-color: lavender;
+  border-color: lavender;
+}
+
+.btn-leo:not(:disabled):not(.disabled):active, .btn-leo:not(:disabled):not(.disabled).active,
+.show > .btn-leo.dropdown-toggle {
+  color: #212529;
+  background-color: lavender;
+  border-color: lavender;
+}
+
+.btn-leo:not(:disabled):not(.disabled):active:focus, .btn-leo:not(:disabled):not(.disabled).active:focus,
+.show > .btn-leo.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem lavender;
+}
